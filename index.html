@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>7月稽核路线对比 - 真实路线 vs 计划路线</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            padding: 0;
+            overflow: hidden;
+        }
+        #sidebar {
+            width: 300px;
+            height: 100vh;
+            background: #f7f7f7;
+            border-right: 1px solid #e0e0e0;
+            float: left;
+            box-sizing: border-box;
+            padding: 24px 16px 16px 16px;
+            overflow-y: auto;
+        }
+        #container {
+            width: calc(100vw - 300px);
+            height: 100vh;
+            float: left;
+            position: relative;
+            z-index: 1;
+        }
+        h2 { font-size: 20px; margin: 0 0 20px 0; }
+        select {
+            width: 100%;
+            padding: 8px;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .legend {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+            background: #fff;
+            padding: 16px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .legend-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 12px;
+            font-size: 15px;
+            border-bottom: 2px solid #2196F3;
+            padding-bottom: 6px;
+        }
+        .legend-item {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .legend span {
+            display: inline-block;
+            width: 18px;
+            height: 6px;
+            vertical-align: middle;
+            margin-right: 8px;
+            border-radius: 2px;
+        }
+        .real-line { background: #FF5722; }
+        .planned-line { background: #4CAF50; }
+        .icon-explanation {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            margin-bottom: 12px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+        }
+        .route-selector {
+            margin-bottom: 20px;
+            padding: 12px;
+            background: #fff;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+        }
+        .route-selector label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+        .route-selector select {
+            margin-bottom: 0;
+        }
+        .data-info {
+            margin-top: 20px;
+            padding: 12px;
+            background: #e8f4fd;
+            border-radius: 6px;
+            border-left: 4px solid #2196F3;
+            font-size: 14px;
+            color: #333;
+        }
+        .comparison-controls {
+            margin-bottom: 20px;
+            padding: 12px;
+            background: #fff3e0;
+            border-radius: 6px;
+            border: 1px solid #ffcc02;
+        }
+        .comparison-controls label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+        .checkbox-group {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 12px;
+        }
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .checkbox-item input[type="checkbox"] {
+            margin: 0;
+        }
+        .stats-panel {
+            margin-top: 20px;
+            padding: 12px;
+            background: #f1f8e9;
+            border-radius: 6px;
+            border-left: 4px solid #4CAF50;
+            font-size: 13px;
+            color: #333;
+        }
+    </style>
+    <!-- 高德地图JS API -->
+    <script src="https://webapi.amap.com/maps?v=2.0&key=05274d5027e6b22978b2ade4630f3596"></script>
+</head>
+<body>
+    <div id="sidebar">
+        <h2>7月路线对比</h2>
+        
+        <!-- 路线选择器 -->
+        <div class="route-selector">
+            <label>选择人员：</label>
+            <select id="userSelect">
+                <option value="">请选择人员...</option>
+            </select>
+        </div>
+        
+        <!-- 对比控制 -->
+        <div class="comparison-controls">
+            <label>显示选项：</label>
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" id="showReal" checked>
+                    <label for="showReal">真实路线</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" id="showPlanned" checked>
+                    <label for="showPlanned">计划路线</label>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 数据信息显示 -->
+<!--        <div id="dataInfo" class="data-info">-->
+<!--            正在加载数据...-->
+<!--        </div>-->
+        
+        <!-- 统计信息 -->
+        <div id="statsPanel" class="stats-panel">
+            选择路线后显示统计信息
+        </div>
+        
+        <div class="legend">
+            <div class="legend-title">图例说明</div>
+            <div class="icon-explanation">
+                图标为访问顺序编号<br>
+                点击显示详细信息
+            </div>
+            <div class="legend-item">
+                <span class="real-line"></span> 真实路线（实际执行）
+            </div>
+            <div class="legend-item">
+                <span class="planned-line"></span> 计划路线（原计划）
+            </div>
+        </div>
+    </div>
+    <div id="container"></div>
+    <script>
+        let realRouteData = {};
+        let plannedRouteData = {};
+        let map, realPolylines = [], plannedPolylines = [], realMarkers = [], plannedMarkers = [], realLabels = [], plannedLabels = [];
+
+        // 加载两个数据集
+        Promise.all([
+            fetch('route_data_7.json').then(res => res.json()),
+            fetch('real_relative_route_7.json').then(res => res.json())
+        ]).then(([realData, plannedData]) => {
+            realRouteData = realData;
+            plannedRouteData = plannedData;
+            initSidebar();
+            // updateDataInfo();
+        }).catch(error => {
+            console.error('加载数据失败:', error);
+            document.getElementById('dataInfo').innerHTML = '数据加载失败，请检查文件路径';
+        });
+
+        // 初始化左侧菜单
+        function initSidebar() {
+            const userSelect = document.getElementById('userSelect');
+            // 获取所有人员名
+            const userNames = Object.keys(realRouteData);
+            userSelect.innerHTML = '<option value="">请选择人员...</option>';
+            userNames.forEach(name => {
+                let opt = document.createElement('option');
+                opt.value = name;
+                opt.text = name;
+                userSelect.appendChild(opt);
+            });
+            // 选择事件
+            userSelect.onchange = function() {
+                if (this.value) {
+                    showRouteComparison(this.value);
+                } else {
+                    clearMap();
+                }
+            }
+            // 复选框事件
+            document.getElementById('showReal').onchange = function() {
+                if (userSelect.value) {
+                    showRouteComparison(userSelect.value);
+                }
+            }
+            document.getElementById('showPlanned').onchange = function() {
+                if (userSelect.value) {
+                    showRouteComparison(userSelect.value);
+                }
+            }
+        }
+
+        // 更新数据信息显示
+        function updateDataInfo() {
+            const realCount = Object.keys(realRouteData).length;
+            const plannedCount = Object.keys(plannedRouteData).length;
+            
+            document.getElementById('dataInfo').innerHTML = 
+                `<strong>7月路线数据</strong><br>
+                真实路线数量: ${realCount}条<br>
+                计划路线数量: ${plannedCount}条<br>
+                数据状态: 已加载`;
+        }
+
+        // 清空地图
+        function clearMap() {
+            if (map) {
+                map.clearMap();
+                realPolylines = [];
+                plannedPolylines = [];
+                realMarkers = [];
+                plannedMarkers = [];
+                realLabels = [];
+                plannedLabels = [];
+            }
+        }
+
+        // 展示路线对比
+        function showRouteComparison(userName) {
+            if (!map) {
+                map = new AMap.Map('container', { zoom: 5, center: [104.0, 35.0] });
+            }
+            map.clearMap();
+            realPolylines = [];
+            plannedPolylines = [];
+            realMarkers = [];
+            plannedMarkers = [];
+            realLabels = [];
+            plannedLabels = [];
+
+            const showReal = document.getElementById('showReal').checked;
+            const showPlanned = document.getElementById('showPlanned').checked;
+            let allPoints = [];
+
+            // 真实路线
+            let realPoints = realRouteData[userName] || [];
+            if (showReal && realPoints.length > 0) {
+                allPoints = allPoints.concat(realPoints.map(p => [Number(p.lon_02), Number(p.lat_02)]));
+                realPoints.forEach((p, i) => {
+                    let marker = new AMap.Marker({
+                        position: [Number(p.lon_02), Number(p.lat_02)],
+                        map: map,
+                        label: {
+                            content: `<span style='color:#FF5722;font-weight:bold;'>${i+1}</span>`,
+                            offset: new AMap.Pixel(0, -32)
+                        }
+                    });
+                    marker.on('click', function() {
+                        let infoContent = `
+                            <div style='font-size:14px;padding:8px;'>
+                                <strong>门店${i+1}</strong><br>
+                                门店ID：${p.shop_id || 'N/A'}<br>
+                                到店时间：${p.signed_time || 'N/A'}
+                            </div>
+                        `;
+                        let infoWindow = new AMap.InfoWindow({
+                            content: infoContent,
+                            offset: new AMap.Pixel(0, -30)
+                        });
+                        infoWindow.open(map, marker.getPosition());
+                    });
+                    realMarkers.push(marker);
+                });
+                for (let i = 1; i < realPoints.length; i++) {
+                    let prev = realPoints[i-1], curr = realPoints[i];
+                    let polyline = new AMap.Polyline({
+                        path: [
+                            [Number(prev.lon_02), Number(prev.lat_02)],
+                            [Number(curr.lon_02), Number(curr.lat_02)]
+                        ],
+                        strokeColor: '#FF5722',
+                        strokeWeight: 4,
+                        strokeStyle: 'solid',
+                        map: map
+                    });
+                    realPolylines.push(polyline);
+                }
+            }
+
+            // 计划路线（每个route_id单独绘制）
+            if (showPlanned && realPoints.length > 0) {
+                // 1. 收集所有route_id
+                let routeIds = realPoints.map(p => p.route_id).filter(x => x && plannedRouteData[x]);
+                routeIds = [...new Set(routeIds)];
+                routeIds.forEach(rid => {
+                    let plannedPoints = plannedRouteData[rid] || [];
+                    plannedPoints = plannedPoints.slice().sort((a, b) => (parseInt(a.position) || 0) - (parseInt(b.position) || 0));
+                    if (plannedPoints.length > 0) {
+                        // 计划路线点位偏移
+                        let offsetPlannedPoints = plannedPoints.map(p => [Number(p.lon) + 0.0005, Number(p.lat) + 0.0005]);
+                        allPoints = allPoints.concat(offsetPlannedPoints);
+                        plannedPoints.forEach((p, i) => {
+                            let marker = new AMap.Marker({
+                                position: [Number(p.lon) + 0.0005, Number(p.lat) + 0.0005],
+                                map: map,
+                                icon: new AMap.Icon({
+                                    size: new AMap.Size(20, 20),
+                                    image: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMTAiIGN5PSIxMCIgcj0iOCIgZmlsbD0iIzMzNjZGRiIvPgo8L3N2Zz4='
+                                })
+                                // 不加label
+                            });
+                            marker.on('click', function() {
+                                let infoContent = `
+                                    <div style='font-size:14px;padding:8px;'>
+                                        <strong>计划路线门店</strong><br>
+                                        门店ID：${p.shop_id || 'N/A'}
+                                    </div>
+                                `;
+                                let infoWindow = new AMap.InfoWindow({
+                                    content: infoContent,
+                                    offset: new AMap.Pixel(0, -30)
+                                });
+                                infoWindow.open(map, marker.getPosition());
+                            });
+                            plannedMarkers.push(marker);
+                        });
+                        for (let i = 1; i < plannedPoints.length; i++) {
+                            let prev = plannedPoints[i-1], curr = plannedPoints[i];
+                            let polyline = new AMap.Polyline({
+                                path: [
+                                    [Number(prev.lon) + 0.0005, Number(prev.lat) + 0.0005],
+                                    [Number(curr.lon) + 0.0005, Number(curr.lat) + 0.0005]
+                                ],
+                                strokeColor: '#158a03',
+                                strokeWeight: 4,
+                                strokeStyle: 'solid',
+                                map: map
+                            });
+                            plannedPolylines.push(polyline);
+                        }
+                    }
+                });
+            }
+
+            // 更新统计信息
+            updateStats(userName);
+            if (allPoints.length > 0) {
+                let lngSum = 0, latSum = 0;
+                allPoints.forEach(([lng, lat]) => { lngSum += lng; latSum += lat; });
+                let center = [lngSum / allPoints.length, latSum / allPoints.length];
+                map.setCenter(center);
+                map.setZoom(10);
+            }
+        }
+
+        // 更新统计信息
+        function updateStats(userName) {
+            const realPoints = realRouteData[userName] || [];
+            let routeIds = realPoints.map(p => p.route_id).filter(x => x && plannedRouteData[x]);
+            routeIds = [...new Set(routeIds)];
+            let plannedPoints = [];
+            routeIds.forEach(rid => {
+                let arr = plannedRouteData[rid] || [];
+                plannedPoints = plannedPoints.concat(arr);
+            });
+            plannedPoints.sort((a, b) => (parseInt(a.position) || 0) - (parseInt(b.position) || 0));
+            const realCount = realPoints.length;
+            const plannedCount = plannedPoints.length;
+            const realStores = [...new Set(realPoints.map(p => p.shop_id))];
+            const plannedStores = [...new Set(plannedPoints.map(p => p.shop_id))];
+            const commonStores = realStores.filter(id => plannedStores.includes(id));
+            const onlyRealStores = realStores.filter(id => !plannedStores.includes(id));
+            const onlyPlannedStores = plannedStores.filter(id => !realStores.includes(id));
+            const timeDiffs = realPoints.map(p => parseFloat(p.time_diff_h)).filter(t => !isNaN(t));
+            const avgTimeDiff = timeDiffs.length > 0 ? (timeDiffs.reduce((a, b) => a + b, 0) / timeDiffs.length).toFixed(1) : 0;
+            const maxTimeDiff = timeDiffs.length > 0 ? Math.max(...timeDiffs).toFixed(1) : 0;
+            document.getElementById('statsPanel').innerHTML = 
+                `<strong>${userName} 路线统计</strong><br>
+                真实路线门店数: ${realCount}家<br>
+                计划路线门店数: ${plannedCount}家<br>
+                重合门店数: ${commonStores.length}家<br>
+                仅真实路线: ${onlyRealStores.length}家<br>
+                仅计划路线: ${onlyPlannedStores.length}家<br>
+                `;
+        }
+    </script>
+</body>
+</html> 
