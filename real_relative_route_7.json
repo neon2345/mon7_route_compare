@@ -331,6 +331,78 @@
       "position": 8
     }
   ],
+  "12": [
+    {
+      "shop_id": "T381",
+      "lon": "119.888566",
+      "lat": "29.447105",
+      "route_total_id": "12",
+      "position": 1
+    },
+    {
+      "shop_id": "TS992",
+      "lon": "120.062376",
+      "lat": "29.308438",
+      "route_total_id": "12",
+      "position": 2
+    },
+    {
+      "shop_id": "T126",
+      "lon": "120.05783",
+      "lat": "29.292449",
+      "route_total_id": "12",
+      "position": 3
+    },
+    {
+      "shop_id": "T114",
+      "lon": "120.168801",
+      "lat": "29.331045",
+      "route_total_id": "12",
+      "position": 4
+    },
+    {
+      "shop_id": "MA1552",
+      "lon": "120.244455",
+      "lat": "29.298439",
+      "route_total_id": "12",
+      "position": 5
+    },
+    {
+      "shop_id": "TA0011",
+      "lon": "120.318021",
+      "lat": "29.149364",
+      "route_total_id": "12",
+      "position": 6
+    },
+    {
+      "shop_id": "M431",
+      "lon": "120.222593",
+      "lat": "29.115636",
+      "route_total_id": "12",
+      "position": 7
+    },
+    {
+      "shop_id": "M514",
+      "lon": "120.163177",
+      "lat": "28.978155",
+      "route_total_id": "12",
+      "position": 8
+    },
+    {
+      "shop_id": "M657",
+      "lon": "120.172013",
+      "lat": "28.955115",
+      "route_total_id": "12",
+      "position": 9
+    },
+    {
+      "shop_id": "M731",
+      "lon": "120.137952",
+      "lat": "28.940036",
+      "route_total_id": "12",
+      "position": 10
+    }
+  ],
   "120": [
     {
       "shop_id": "MS2076",
@@ -591,6 +663,57 @@
       "position": 11
     }
   ],
+  "128": [
+    {
+      "shop_id": "MS004",
+      "lon": "113.680102",
+      "lat": "23.630696",
+      "route_total_id": "128",
+      "position": 1
+    },
+    {
+      "shop_id": "MS1650",
+      "lon": "113.491396",
+      "lat": "23.451528",
+      "route_total_id": "128",
+      "position": 2
+    },
+    {
+      "shop_id": "MA1642",
+      "lon": "113.445268",
+      "lat": "23.373443",
+      "route_total_id": "128",
+      "position": 3
+    },
+    {
+      "shop_id": "MA0193",
+      "lon": "113.476908",
+      "lat": "23.406925",
+      "route_total_id": "128",
+      "position": 4
+    },
+    {
+      "shop_id": "MS1491",
+      "lon": "113.358679",
+      "lat": "23.456942",
+      "route_total_id": "128",
+      "position": 5
+    },
+    {
+      "shop_id": "MS974",
+      "lon": "113.321174",
+      "lat": "23.434292",
+      "route_total_id": "128",
+      "position": 6
+    },
+    {
+      "shop_id": "MS1106",
+      "lon": "113.275382",
+      "lat": "23.45228",
+      "route_total_id": "128",
+      "position": 7
+    }
+  ],
   "129": [
     {
       "shop_id": "ME093",
@@ -819,6 +942,108 @@
       "lat": "23.454352",
       "route_total_id": "135",
       "position": 10
+    }
+  ],
+  "151": [
+    {
+      "shop_id": "TW0157",
+      "lon": "114.910336",
+      "lat": "25.824122",
+      "route_total_id": "151",
+      "position": 1
+    },
+    {
+      "shop_id": "M291",
+      "lon": "114.92598",
+      "lat": "25.816063",
+      "route_total_id": "151",
+      "position": 2
+    },
+    {
+      "shop_id": "MS2161",
+      "lon": "115.383163",
+      "lat": "25.951651",
+      "route_total_id": "151",
+      "position": 3
+    },
+    {
+      "shop_id": "M959",
+      "lon": "115.407756",
+      "lat": "25.960177",
+      "route_total_id": "151",
+      "position": 4
+    },
+    {
+      "shop_id": "M293",
+      "lon": "115.412966",
+      "lat": "25.966012",
+      "route_total_id": "151",
+      "position": 5
+    },
+    {
+      "shop_id": "MS296",
+      "lon": "115.418796",
+      "lat": "25.954041",
+      "route_total_id": "151",
+      "position": 6
+    },
+    {
+      "shop_id": "ME151",
+      "lon": "115.425136",
+      "lat": "25.94519",
+      "route_total_id": "151",
+      "position": 7
+    },
+    {
+      "shop_id": "MS124",
+      "lon": "115.796824",
+      "lat": "25.59937",
+      "route_total_id": "151",
+      "position": 8
+    }
+  ],
+  "152": [
+    {
+      "shop_id": "TS669",
+      "lon": "115.038229",
+      "lat": "27.113086",
+      "route_total_id": "152",
+      "position": 1
+    },
+    {
+      "shop_id": "ME312",
+      "lon": "114.915014",
+      "lat": "27.008492",
+      "route_total_id": "152",
+      "position": 2
+    },
+    {
+      "shop_id": "M696",
+      "lon": "114.902894",
+      "lat": "26.788586",
+      "route_total_id": "152",
+      "position": 3
+    },
+    {
+      "shop_id": "MS1008",
+      "lon": "114.898502",
+      "lat": "26.790949",
+      "route_total_id": "152",
+      "position": 4
+    },
+    {
+      "shop_id": "ME056",
+      "lon": "114.254002",
+      "lat": "26.963395",
+      "route_total_id": "152",
+      "position": 5
+    },
+    {
+      "shop_id": "ME1038",
+      "lon": "114.243184",
+      "lat": "26.946894",
+      "route_total_id": "152",
+      "position": 6
     }
   ],
   "153": [
@@ -1750,6 +1975,57 @@
       "position": 10
     }
   ],
+  "170": [
+    {
+      "shop_id": "MS550",
+      "lon": "105.167092",
+      "lat": "31.630487",
+      "route_total_id": "170",
+      "position": 1
+    },
+    {
+      "shop_id": "TW0164",
+      "lon": "104.738763",
+      "lat": "31.766465",
+      "route_total_id": "170",
+      "position": 2
+    },
+    {
+      "shop_id": "TS848",
+      "lon": "104.561778",
+      "lat": "31.538901",
+      "route_total_id": "170",
+      "position": 3
+    },
+    {
+      "shop_id": "TS708",
+      "lon": "104.766284",
+      "lat": "31.479515",
+      "route_total_id": "170",
+      "position": 4
+    },
+    {
+      "shop_id": "T693",
+      "lon": "104.719814",
+      "lat": "31.453518",
+      "route_total_id": "170",
+      "position": 5
+    },
+    {
+      "shop_id": "TA0546",
+      "lon": "104.386997",
+      "lat": "31.091548",
+      "route_total_id": "170",
+      "position": 6
+    },
+    {
+      "shop_id": "TE018",
+      "lon": "104.28465",
+      "lat": "30.968196",
+      "route_total_id": "170",
+      "position": 7
+    }
+  ],
   "171": [
     {
       "shop_id": "TW0154",
@@ -2291,6 +2567,36 @@
       "position": 8
     }
   ],
+  "210": [
+    {
+      "shop_id": "MQ0009",
+      "lon": "114.73449",
+      "lat": "41.145737",
+      "route_total_id": "210",
+      "position": 1
+    },
+    {
+      "shop_id": "MW0128",
+      "lon": "115.281546",
+      "lat": "40.973217",
+      "route_total_id": "210",
+      "position": 2
+    },
+    {
+      "shop_id": "MW0199",
+      "lon": "114.894479",
+      "lat": "40.792309",
+      "route_total_id": "210",
+      "position": 3
+    },
+    {
+      "shop_id": "MW0242",
+      "lon": "114.165782",
+      "lat": "40.114358",
+      "route_total_id": "210",
+      "position": 4
+    }
+  ],
   "211": [
     {
       "shop_id": "TS999",
@@ -2428,6 +2734,43 @@
       "position": 11
     }
   ],
+  "215": [
+    {
+      "shop_id": "MW0169",
+      "lon": "117.769517",
+      "lat": "38.274277",
+      "route_total_id": "215",
+      "position": 1
+    },
+    {
+      "shop_id": "MW0027",
+      "lon": "117.442895",
+      "lat": "38.383203",
+      "route_total_id": "215",
+      "position": 2
+    },
+    {
+      "shop_id": "MQ0008",
+      "lon": "116.84493",
+      "lat": "38.304215",
+      "route_total_id": "215",
+      "position": 3
+    },
+    {
+      "shop_id": "MQ0002",
+      "lon": "116.540594",
+      "lat": "37.88521",
+      "route_total_id": "215",
+      "position": 4
+    },
+    {
+      "shop_id": "MA1065",
+      "lon": "116.260638",
+      "lat": "37.691572",
+      "route_total_id": "215",
+      "position": 5
+    }
+  ],
   "217": [
     {
       "shop_id": "MA1536",
@@ -2500,6 +2843,71 @@
       "position": 10
     }
   ],
+  "218": [
+    {
+      "shop_id": "TS901",
+      "lon": "114.477194",
+      "lat": "37.061533",
+      "route_total_id": "218",
+      "position": 1
+    },
+    {
+      "shop_id": "MS1822",
+      "lon": "114.505906",
+      "lat": "36.59571",
+      "route_total_id": "218",
+      "position": 2
+    },
+    {
+      "shop_id": "MS2057",
+      "lon": "114.505946",
+      "lat": "36.586441",
+      "route_total_id": "218",
+      "position": 3
+    },
+    {
+      "shop_id": "MS1820",
+      "lon": "114.498811",
+      "lat": "36.578787",
+      "route_total_id": "218",
+      "position": 4
+    },
+    {
+      "shop_id": "MS1275",
+      "lon": "114.611388",
+      "lat": "36.335214",
+      "route_total_id": "218",
+      "position": 5
+    },
+    {
+      "shop_id": "MS2473",
+      "lon": "114.930949",
+      "lat": "36.350773",
+      "route_total_id": "218",
+      "position": 6
+    },
+    {
+      "shop_id": "MS1801",
+      "lon": "115.151613",
+      "lat": "36.285427",
+      "route_total_id": "218",
+      "position": 7
+    },
+    {
+      "shop_id": "MS1952",
+      "lon": "115.281789",
+      "lat": "36.541616",
+      "route_total_id": "218",
+      "position": 8
+    },
+    {
+      "shop_id": "MS1800",
+      "lon": "115.174187",
+      "lat": "36.815767",
+      "route_total_id": "218",
+      "position": 9
+    }
+  ],
   "219": [
     {
       "shop_id": "TS667",
@@ -2570,6 +2978,50 @@
       "lat": "37.755466",
       "route_total_id": "219",
       "position": 10
+    }
+  ],
+  "220": [
+    {
+      "shop_id": "MA1170",
+      "lon": "117.33412",
+      "lat": "40.932945",
+      "route_total_id": "220",
+      "position": 1
+    },
+    {
+      "shop_id": "MA0432",
+      "lon": "117.773621",
+      "lat": "40.95322",
+      "route_total_id": "220",
+      "position": 2
+    },
+    {
+      "shop_id": "MA0185",
+      "lon": "117.950138",
+      "lat": "40.90209",
+      "route_total_id": "220",
+      "position": 3
+    },
+    {
+      "shop_id": "MA1068",
+      "lon": "117.957267",
+      "lat": "40.896164",
+      "route_total_id": "220",
+      "position": 4
+    },
+    {
+      "shop_id": "MA0593",
+      "lon": "118.17412",
+      "lat": "40.769242",
+      "route_total_id": "220",
+      "position": 5
+    },
+    {
+      "shop_id": "MA0530",
+      "lon": "118.489202",
+      "lat": "40.606412",
+      "route_total_id": "220",
+      "position": 6
     }
   ],
   "221": [
@@ -2934,6 +3386,85 @@
       "lat": "19.97775",
       "route_total_id": "290",
       "position": 7
+    }
+  ],
+  "292": [
+    {
+      "shop_id": "TS243",
+      "lon": "110.13071",
+      "lat": "19.962971",
+      "route_total_id": "292",
+      "position": 1
+    },
+    {
+      "shop_id": "M592",
+      "lon": "110.2018",
+      "lat": "20.011516",
+      "route_total_id": "292",
+      "position": 2
+    },
+    {
+      "shop_id": "TS567",
+      "lon": "110.252256",
+      "lat": "20.014334",
+      "route_total_id": "292",
+      "position": 3
+    },
+    {
+      "shop_id": "TS121",
+      "lon": "110.282802",
+      "lat": "20.006892",
+      "route_total_id": "292",
+      "position": 4
+    },
+    {
+      "shop_id": "TE170",
+      "lon": "110.29904",
+      "lat": "19.999373",
+      "route_total_id": "292",
+      "position": 5
+    },
+    {
+      "shop_id": "TE033",
+      "lon": "110.312981",
+      "lat": "19.99784",
+      "route_total_id": "292",
+      "position": 6
+    },
+    {
+      "shop_id": "T40",
+      "lon": "110.307026",
+      "lat": "20.005304",
+      "route_total_id": "292",
+      "position": 7
+    },
+    {
+      "shop_id": "TS340",
+      "lon": "110.311978",
+      "lat": "20.017165",
+      "route_total_id": "292",
+      "position": 8
+    },
+    {
+      "shop_id": "T699",
+      "lon": "110.324994",
+      "lat": "20.02414",
+      "route_total_id": "292",
+      "position": 9
+    },
+    {
+      "shop_id": "T898",
+      "lon": "110.329999",
+      "lat": "20.041879",
+      "route_total_id": "292",
+      "position": 10
+    },
+    {
+      "shop_id": "T44",
+      "lon": "110.338381",
+      "lat": "20.051318",
+      "route_total_id": "292",
+      "position": 11
     }
   ],
   "3": [
@@ -3345,6 +3876,36 @@
       "lat": "24.745317",
       "route_total_id": "317",
       "position": 11
+    }
+  ],
+  "320": [
+    {
+      "shop_id": "M40",
+      "lon": "119.510573",
+      "lat": "27.45558",
+      "route_total_id": "320",
+      "position": 1
+    },
+    {
+      "shop_id": "TE305",
+      "lon": "119.544884",
+      "lat": "26.647768",
+      "route_total_id": "320",
+      "position": 2
+    },
+    {
+      "shop_id": "M547",
+      "lon": "119.595655",
+      "lat": "26.471918",
+      "route_total_id": "320",
+      "position": 3
+    },
+    {
+      "shop_id": "M581",
+      "lon": "120.254335",
+      "lat": "27.097966",
+      "route_total_id": "320",
+      "position": 4
     }
   ],
   "33": [
@@ -4124,6 +4685,85 @@
       "lon": "112.54092",
       "lat": "27.724798",
       "route_total_id": "60",
+      "position": 11
+    }
+  ],
+  "62": [
+    {
+      "shop_id": "TA0243",
+      "lon": "112.939499",
+      "lat": "28.154167",
+      "route_total_id": "62",
+      "position": 1
+    },
+    {
+      "shop_id": "T628",
+      "lon": "112.951635",
+      "lat": "28.193908",
+      "route_total_id": "62",
+      "position": 2
+    },
+    {
+      "shop_id": "TS254",
+      "lon": "112.953952",
+      "lat": "28.241011",
+      "route_total_id": "62",
+      "position": 3
+    },
+    {
+      "shop_id": "TS1183",
+      "lon": "112.978086",
+      "lat": "28.267039",
+      "route_total_id": "62",
+      "position": 4
+    },
+    {
+      "shop_id": "T820",
+      "lon": "113.0624",
+      "lat": "28.237651",
+      "route_total_id": "62",
+      "position": 5
+    },
+    {
+      "shop_id": "T326",
+      "lon": "113.054271",
+      "lat": "28.263414",
+      "route_total_id": "62",
+      "position": 6
+    },
+    {
+      "shop_id": "TS404",
+      "lon": "113.044623",
+      "lat": "28.232975",
+      "route_total_id": "62",
+      "position": 7
+    },
+    {
+      "shop_id": "ME479",
+      "lon": "113.114003",
+      "lat": "28.228062",
+      "route_total_id": "62",
+      "position": 8
+    },
+    {
+      "shop_id": "MA1130",
+      "lon": "113.16592",
+      "lat": "28.252497",
+      "route_total_id": "62",
+      "position": 9
+    },
+    {
+      "shop_id": "MS295",
+      "lon": "113.184993",
+      "lat": "28.227779",
+      "route_total_id": "62",
+      "position": 10
+    },
+    {
+      "shop_id": "MS1158",
+      "lon": "113.293286",
+      "lat": "28.214739",
+      "route_total_id": "62",
       "position": 11
     }
   ],
