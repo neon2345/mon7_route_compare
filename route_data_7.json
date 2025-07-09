@@ -89,6 +89,42 @@
       "time_diff_h": 3.4,
       "shop_id": "TS686",
       "route_id": "129"
+    },
+    {
+      "task_treated_user_nickname": "严生燚",
+      "signed_time": "2025-07-07 22:27:12",
+      "lon_02": 113.852225,
+      "lat_02": 22.599635,
+      "time_diff_h": 2.2,
+      "shop_id": "TS533",
+      "route_id": "129"
+    },
+    {
+      "task_treated_user_nickname": "严生燚",
+      "signed_time": "2025-07-08 13:57:09",
+      "lon_02": 113.410029,
+      "lat_02": 23.381311,
+      "time_diff_h": 15.5,
+      "shop_id": "TA0914",
+      "route_id": 0
+    },
+    {
+      "task_treated_user_nickname": "严生燚",
+      "signed_time": "2025-07-08 17:26:11",
+      "lon_02": 113.491396,
+      "lat_02": 23.451528,
+      "time_diff_h": 3.5,
+      "shop_id": "MS1650",
+      "route_id": "128"
+    },
+    {
+      "task_treated_user_nickname": "严生燚",
+      "signed_time": "2025-07-08 20:33:32",
+      "lon_02": 113.321174,
+      "lat_02": 23.434292,
+      "time_diff_h": 3.1,
+      "shop_id": "MS974",
+      "route_id": "128"
     }
   ],
   "何浩廷": [
@@ -180,6 +216,33 @@
       "lat_02": 26.397587,
       "time_diff_h": 5.0,
       "shop_id": "MS943",
+      "route_id": "56"
+    },
+    {
+      "task_treated_user_nickname": "何浩廷",
+      "signed_time": "2025-07-08 10:38:25",
+      "lon_02": 111.297965,
+      "lat_02": 26.397555,
+      "time_diff_h": 14.2,
+      "shop_id": "ME150",
+      "route_id": "56"
+    },
+    {
+      "task_treated_user_nickname": "何浩廷",
+      "signed_time": "2025-07-08 14:20:02",
+      "lon_02": 111.113396,
+      "lat_02": 26.742857,
+      "time_diff_h": 3.7,
+      "shop_id": "MW0247",
+      "route_id": "56"
+    },
+    {
+      "task_treated_user_nickname": "何浩廷",
+      "signed_time": "2025-07-08 16:22:56",
+      "lon_02": 110.85741,
+      "lat_02": 26.447982,
+      "time_diff_h": 2.0,
+      "shop_id": "MA0500",
       "route_id": "56"
     }
   ],
@@ -327,6 +390,51 @@
       "time_diff_h": 1.6,
       "shop_id": "MA1383",
       "route_id": "159"
+    },
+    {
+      "task_treated_user_nickname": "余宁",
+      "signed_time": "2025-07-08 09:51:06",
+      "lon_02": 115.905849,
+      "lat_02": 28.653131,
+      "time_diff_h": 17.2,
+      "shop_id": "M875",
+      "route_id": "153"
+    },
+    {
+      "task_treated_user_nickname": "余宁",
+      "signed_time": "2025-07-08 13:29:42",
+      "lon_02": 115.94108,
+      "lat_02": 28.552053,
+      "time_diff_h": 3.6,
+      "shop_id": "T665",
+      "route_id": "159"
+    },
+    {
+      "task_treated_user_nickname": "余宁",
+      "signed_time": "2025-07-08 15:27:11",
+      "lon_02": 115.930434,
+      "lat_02": 28.537412,
+      "time_diff_h": 2.0,
+      "shop_id": "T994",
+      "route_id": "159"
+    },
+    {
+      "task_treated_user_nickname": "余宁",
+      "signed_time": "2025-07-08 17:05:47",
+      "lon_02": 115.937315,
+      "lat_02": 28.522954,
+      "time_diff_h": 1.6,
+      "shop_id": "T903",
+      "route_id": "159"
+    },
+    {
+      "task_treated_user_nickname": "余宁",
+      "signed_time": "2025-07-08 19:27:50",
+      "lon_02": 115.944992,
+      "lat_02": 28.519025,
+      "time_diff_h": 2.4,
+      "shop_id": "T950",
+      "route_id": "159"
     }
   ],
   "冯人杰": [
@@ -391,6 +499,24 @@
       "lat_02": 34.416835,
       "time_diff_h": 5.7,
       "shop_id": "MS1614",
+      "route_id": "78"
+    },
+    {
+      "task_treated_user_nickname": "冯人杰",
+      "signed_time": "2025-07-08 13:45:29",
+      "lon_02": 113.714266,
+      "lat_02": 34.427799,
+      "time_diff_h": 16.2,
+      "shop_id": "MA0376",
+      "route_id": "78"
+    },
+    {
+      "task_treated_user_nickname": "冯人杰",
+      "signed_time": "2025-07-08 17:08:35",
+      "lon_02": 113.758706,
+      "lat_02": 34.414144,
+      "time_diff_h": 3.4,
+      "shop_id": "MA0463",
       "route_id": "78"
     }
   ],
@@ -493,6 +619,51 @@
       "time_diff_h": 1.6,
       "shop_id": "TW0116",
       "route_id": "165"
+    },
+    {
+      "task_treated_user_nickname": "叶林军",
+      "signed_time": "2025-07-08 10:14:02",
+      "lon_02": 104.166593,
+      "lat_02": 30.017673,
+      "time_diff_h": 17.6,
+      "shop_id": "MW0196",
+      "route_id": "174"
+    },
+    {
+      "task_treated_user_nickname": "叶林军",
+      "signed_time": "2025-07-08 14:11:25",
+      "lon_02": 104.01333,
+      "lat_02": 30.875548,
+      "time_diff_h": 4.0,
+      "shop_id": "MS710",
+      "route_id": "168"
+    },
+    {
+      "task_treated_user_nickname": "叶林军",
+      "signed_time": "2025-07-08 15:25:39",
+      "lon_02": 103.988521,
+      "lat_02": 30.822583,
+      "time_diff_h": 1.2,
+      "shop_id": "TS355",
+      "route_id": "168"
+    },
+    {
+      "task_treated_user_nickname": "叶林军",
+      "signed_time": "2025-07-08 16:47:53",
+      "lon_02": 103.888747,
+      "lat_02": 30.789341,
+      "time_diff_h": 1.4,
+      "shop_id": "T571",
+      "route_id": "168"
+    },
+    {
+      "task_treated_user_nickname": "叶林军",
+      "signed_time": "2025-07-08 19:25:59",
+      "lon_02": 103.908114,
+      "lat_02": 30.806708,
+      "time_diff_h": 2.6,
+      "shop_id": "T567",
+      "route_id": 0
     }
   ],
   "吴文芳": [
@@ -603,6 +774,33 @@
       "time_diff_h": 3.3,
       "shop_id": "MA0938",
       "route_id": "123"
+    },
+    {
+      "task_treated_user_nickname": "吴文芳",
+      "signed_time": "2025-07-08 14:07:28",
+      "lon_02": 114.13917,
+      "lat_02": 22.566782,
+      "time_diff_h": 18.1,
+      "shop_id": "ME460",
+      "route_id": "123"
+    },
+    {
+      "task_treated_user_nickname": "吴文芳",
+      "signed_time": "2025-07-08 15:29:23",
+      "lon_02": 114.136614,
+      "lat_02": 22.581724,
+      "time_diff_h": 1.4,
+      "shop_id": "MS2043",
+      "route_id": "123"
+    },
+    {
+      "task_treated_user_nickname": "吴文芳",
+      "signed_time": "2025-07-08 21:02:43",
+      "lon_02": 114.1052,
+      "lat_02": 22.655399,
+      "time_diff_h": 5.6,
+      "shop_id": "MA0611",
+      "route_id": "122"
     }
   ],
   "吴湟": [
@@ -703,6 +901,42 @@
       "lat_02": 44.807969,
       "time_diff_h": 4.6,
       "shop_id": "MA1628",
+      "route_id": "265"
+    },
+    {
+      "task_treated_user_nickname": "吴湟",
+      "signed_time": "2025-07-08 10:29:08",
+      "lon_02": 124.02343,
+      "lat_02": 45.00725,
+      "time_diff_h": 13.3,
+      "shop_id": "MA0684",
+      "route_id": "265"
+    },
+    {
+      "task_treated_user_nickname": "吴湟",
+      "signed_time": "2025-07-08 14:59:35",
+      "lon_02": 124.82502,
+      "lat_02": 45.116001,
+      "time_diff_h": 4.5,
+      "shop_id": "MW0274",
+      "route_id": "265"
+    },
+    {
+      "task_treated_user_nickname": "吴湟",
+      "signed_time": "2025-07-08 20:28:57",
+      "lon_02": 124.84056,
+      "lat_02": 45.173043,
+      "time_diff_h": 5.5,
+      "shop_id": "MA0803",
+      "route_id": "265"
+    },
+    {
+      "task_treated_user_nickname": "吴湟",
+      "signed_time": "2025-07-08 21:49:44",
+      "lon_02": 124.831383,
+      "lat_02": 45.133937,
+      "time_diff_h": 1.3,
+      "shop_id": "MA0489",
       "route_id": "265"
     }
   ],
@@ -814,6 +1048,51 @@
       "time_diff_h": 1.5,
       "shop_id": "TA0522",
       "route_id": "16"
+    },
+    {
+      "task_treated_user_nickname": "吴激",
+      "signed_time": "2025-07-08 09:01:45",
+      "lon_02": 120.07085,
+      "lat_02": 28.922641,
+      "time_diff_h": 16.8,
+      "shop_id": "T243",
+      "route_id": "16"
+    },
+    {
+      "task_treated_user_nickname": "吴激",
+      "signed_time": "2025-07-08 10:48:09",
+      "lon_02": 120.137952,
+      "lat_02": 28.940036,
+      "time_diff_h": 1.8,
+      "shop_id": "M731",
+      "route_id": "12"
+    },
+    {
+      "task_treated_user_nickname": "吴激",
+      "signed_time": "2025-07-08 13:10:34",
+      "lon_02": 120.172013,
+      "lat_02": 28.955115,
+      "time_diff_h": 2.4,
+      "shop_id": "M657",
+      "route_id": "12"
+    },
+    {
+      "task_treated_user_nickname": "吴激",
+      "signed_time": "2025-07-08 15:04:41",
+      "lon_02": 120.163177,
+      "lat_02": 28.978155,
+      "time_diff_h": 1.9,
+      "shop_id": "M514",
+      "route_id": "12"
+    },
+    {
+      "task_treated_user_nickname": "吴激",
+      "signed_time": "2025-07-08 16:45:13",
+      "lon_02": 120.222593,
+      "lat_02": 29.115636,
+      "time_diff_h": 1.7,
+      "shop_id": "M431",
+      "route_id": "12"
     }
   ],
   "吴腾飞": [
@@ -905,6 +1184,33 @@
       "lat_02": 35.770554,
       "time_diff_h": 5.2,
       "shop_id": "MS1580",
+      "route_id": "36"
+    },
+    {
+      "task_treated_user_nickname": "吴腾飞",
+      "signed_time": "2025-07-08 09:52:44",
+      "lon_02": 116.088064,
+      "lat_02": 35.797875,
+      "time_diff_h": 12.5,
+      "shop_id": "ME1127",
+      "route_id": "36"
+    },
+    {
+      "task_treated_user_nickname": "吴腾飞",
+      "signed_time": "2025-07-08 17:12:28",
+      "lon_02": 115.477235,
+      "lat_02": 35.267045,
+      "time_diff_h": 7.3,
+      "shop_id": "MS1976",
+      "route_id": "36"
+    },
+    {
+      "task_treated_user_nickname": "吴腾飞",
+      "signed_time": "2025-07-08 18:28:56",
+      "lon_02": 115.462288,
+      "lat_02": 35.246905,
+      "time_diff_h": 1.3,
+      "shop_id": "ME710",
       "route_id": "36"
     }
   ],
@@ -1025,6 +1331,51 @@
       "time_diff_h": 1.7,
       "shop_id": "ME112",
       "route_id": "5"
+    },
+    {
+      "task_treated_user_nickname": "廖友豪",
+      "signed_time": "2025-07-08 10:27:09",
+      "lon_02": 120.929964,
+      "lat_02": 27.949605,
+      "time_diff_h": 14.2,
+      "shop_id": "MW0273",
+      "route_id": "5"
+    },
+    {
+      "task_treated_user_nickname": "廖友豪",
+      "signed_time": "2025-07-08 13:31:20",
+      "lon_02": 121.007965,
+      "lat_02": 28.102235,
+      "time_diff_h": 3.1,
+      "shop_id": "MS1560",
+      "route_id": "5"
+    },
+    {
+      "task_treated_user_nickname": "廖友豪",
+      "signed_time": "2025-07-08 14:59:06",
+      "lon_02": 121.052141,
+      "lat_02": 28.169283,
+      "time_diff_h": 1.4,
+      "shop_id": "MS401",
+      "route_id": "5"
+    },
+    {
+      "task_treated_user_nickname": "廖友豪",
+      "signed_time": "2025-07-08 16:28:46",
+      "lon_02": 121.03787,
+      "lat_02": 28.217716,
+      "time_diff_h": 1.5,
+      "shop_id": "M715",
+      "route_id": "5"
+    },
+    {
+      "task_treated_user_nickname": "廖友豪",
+      "signed_time": "2025-07-08 21:06:27",
+      "lon_02": 121.045087,
+      "lat_02": 28.205311,
+      "time_diff_h": 4.6,
+      "shop_id": "MA0588",
+      "route_id": "5"
     }
   ],
   "张宇迪": [
@@ -1035,6 +1386,42 @@
       "lat_02": 40.149579,
       "time_diff_h": 0.0,
       "shop_id": "TS1182",
+      "route_id": "208"
+    },
+    {
+      "task_treated_user_nickname": "张宇迪",
+      "signed_time": "2025-07-08 08:32:03",
+      "lon_02": 115.976646,
+      "lat_02": 40.461682,
+      "time_diff_h": 18.0,
+      "shop_id": "MA0746",
+      "route_id": "208"
+    },
+    {
+      "task_treated_user_nickname": "张宇迪",
+      "signed_time": "2025-07-08 15:36:13",
+      "lon_02": 116.845954,
+      "lat_02": 40.37474,
+      "time_diff_h": 7.1,
+      "shop_id": "MA0548",
+      "route_id": "208"
+    },
+    {
+      "task_treated_user_nickname": "张宇迪",
+      "signed_time": "2025-07-08 18:32:47",
+      "lon_02": 116.636897,
+      "lat_02": 40.315018,
+      "time_diff_h": 2.9,
+      "shop_id": "MA0590",
+      "route_id": "208"
+    },
+    {
+      "task_treated_user_nickname": "张宇迪",
+      "signed_time": "2025-07-08 21:39:18",
+      "lon_02": 116.652076,
+      "lat_02": 40.127667,
+      "time_diff_h": 3.1,
+      "shop_id": "MA0837",
       "route_id": "208"
     }
   ],
@@ -1182,6 +1569,33 @@
       "time_diff_h": 5.6,
       "shop_id": "M488",
       "route_id": "162"
+    },
+    {
+      "task_treated_user_nickname": "张炳思",
+      "signed_time": "2025-07-08 09:30:19",
+      "lon_02": 115.575355,
+      "lat_02": 28.84558,
+      "time_diff_h": 12.4,
+      "shop_id": "ME669",
+      "route_id": "162"
+    },
+    {
+      "task_treated_user_nickname": "张炳思",
+      "signed_time": "2025-07-08 15:48:36",
+      "lon_02": 114.983609,
+      "lat_02": 27.102965,
+      "time_diff_h": 6.3,
+      "shop_id": "MS427",
+      "route_id": 0
+    },
+    {
+      "task_treated_user_nickname": "张炳思",
+      "signed_time": "2025-07-08 21:06:55",
+      "lon_02": 114.898502,
+      "lat_02": 26.790949,
+      "time_diff_h": 5.3,
+      "shop_id": "MS1008",
+      "route_id": "152"
     }
   ],
   "李婷": [
@@ -1292,6 +1706,42 @@
       "time_diff_h": 4.8,
       "shop_id": "MC0007",
       "route_id": "40"
+    },
+    {
+      "task_treated_user_nickname": "李婷",
+      "signed_time": "2025-07-08 12:41:53",
+      "lon_02": 120.492707,
+      "lat_02": 36.402318,
+      "time_diff_h": 19.3,
+      "shop_id": "MS2240",
+      "route_id": "33"
+    },
+    {
+      "task_treated_user_nickname": "李婷",
+      "signed_time": "2025-07-08 15:13:57",
+      "lon_02": 120.521461,
+      "lat_02": 36.861449,
+      "time_diff_h": 2.5,
+      "shop_id": "MS246",
+      "route_id": "33"
+    },
+    {
+      "task_treated_user_nickname": "李婷",
+      "signed_time": "2025-07-08 16:43:12",
+      "lon_02": 120.527661,
+      "lat_02": 36.88302,
+      "time_diff_h": 1.5,
+      "shop_id": "MA0733",
+      "route_id": "33"
+    },
+    {
+      "task_treated_user_nickname": "李婷",
+      "signed_time": "2025-07-08 18:13:35",
+      "lon_02": 120.712978,
+      "lat_02": 36.968305,
+      "time_diff_h": 1.5,
+      "shop_id": "MS840",
+      "route_id": "33"
     }
   ],
   "李惠": [
@@ -1338,6 +1788,51 @@
       "lat_02": 30.245855,
       "time_diff_h": 4.4,
       "shop_id": "MW0192",
+      "route_id": "119"
+    },
+    {
+      "task_treated_user_nickname": "李惠",
+      "signed_time": "2025-07-08 08:44:37",
+      "lon_02": 114.890929,
+      "lat_02": 30.392776,
+      "time_diff_h": 13.4,
+      "shop_id": "T324",
+      "route_id": "119"
+    },
+    {
+      "task_treated_user_nickname": "李惠",
+      "signed_time": "2025-07-08 11:15:26",
+      "lon_02": 114.881281,
+      "lat_02": 30.389998,
+      "time_diff_h": 2.5,
+      "shop_id": "TE181",
+      "route_id": "119"
+    },
+    {
+      "task_treated_user_nickname": "李惠",
+      "signed_time": "2025-07-08 14:21:52",
+      "lon_02": 115.075411,
+      "lat_02": 29.961337,
+      "time_diff_h": 3.1,
+      "shop_id": "MA1091",
+      "route_id": "119"
+    },
+    {
+      "task_treated_user_nickname": "李惠",
+      "signed_time": "2025-07-08 19:29:07",
+      "lon_02": 114.887219,
+      "lat_02": 30.408118,
+      "time_diff_h": 5.1,
+      "shop_id": "T307",
+      "route_id": "119"
+    },
+    {
+      "task_treated_user_nickname": "李惠",
+      "signed_time": "2025-07-08 21:14:26",
+      "lon_02": 114.890634,
+      "lat_02": 30.404098,
+      "time_diff_h": 1.8,
+      "shop_id": "T248",
       "route_id": "119"
     }
   ],
@@ -1430,6 +1925,33 @@
       "lat_02": 19.240522,
       "time_diff_h": 2.6,
       "shop_id": "M272",
+      "route_id": "288"
+    },
+    {
+      "task_treated_user_nickname": "李春",
+      "signed_time": "2025-07-08 10:25:36",
+      "lon_02": 110.464999,
+      "lat_02": 19.253248,
+      "time_diff_h": 14.5,
+      "shop_id": "M825",
+      "route_id": "288"
+    },
+    {
+      "task_treated_user_nickname": "李春",
+      "signed_time": "2025-07-08 15:08:06",
+      "lon_02": 110.101429,
+      "lat_02": 19.359823,
+      "time_diff_h": 4.7,
+      "shop_id": "T330",
+      "route_id": "288"
+    },
+    {
+      "task_treated_user_nickname": "李春",
+      "signed_time": "2025-07-08 19:15:18",
+      "lon_02": 110.472989,
+      "lat_02": 19.253079,
+      "time_diff_h": 4.1,
+      "shop_id": "T777",
       "route_id": "288"
     }
   ],
@@ -1586,6 +2108,24 @@
       "time_diff_h": 2.8,
       "shop_id": "MS194",
       "route_id": "164"
+    },
+    {
+      "task_treated_user_nickname": "杨晓龙",
+      "signed_time": "2025-07-08 13:10:00",
+      "lon_02": 114.92598,
+      "lat_02": 25.816063,
+      "time_diff_h": 19.4,
+      "shop_id": "M291",
+      "route_id": "151"
+    },
+    {
+      "task_treated_user_nickname": "杨晓龙",
+      "signed_time": "2025-07-08 14:44:12",
+      "lon_02": 114.910336,
+      "lat_02": 25.824122,
+      "time_diff_h": 1.6,
+      "shop_id": "TW0157",
+      "route_id": "151"
     }
   ],
   "杨雯钰": [
@@ -1696,6 +2236,33 @@
       "time_diff_h": 4.0,
       "shop_id": "TS468",
       "route_id": "219"
+    },
+    {
+      "task_treated_user_nickname": "杨雯钰",
+      "signed_time": "2025-07-08 09:05:39",
+      "lon_02": 115.174187,
+      "lat_02": 36.815767,
+      "time_diff_h": 18.0,
+      "shop_id": "MS1800",
+      "route_id": "218"
+    },
+    {
+      "task_treated_user_nickname": "杨雯钰",
+      "signed_time": "2025-07-08 13:26:28",
+      "lon_02": 115.281789,
+      "lat_02": 36.541616,
+      "time_diff_h": 4.3,
+      "shop_id": "MS1952",
+      "route_id": "218"
+    },
+    {
+      "task_treated_user_nickname": "杨雯钰",
+      "signed_time": "2025-07-08 16:12:02",
+      "lon_02": 115.151613,
+      "lat_02": 36.285427,
+      "time_diff_h": 2.8,
+      "shop_id": "MS1801",
+      "route_id": "218"
     }
   ],
   "欧凌翔": [
@@ -1824,6 +2391,51 @@
       "time_diff_h": 2.2,
       "shop_id": "TS928",
       "route_id": "43"
+    },
+    {
+      "task_treated_user_nickname": "欧凌翔",
+      "signed_time": "2025-07-08 09:15:43",
+      "lon_02": 111.956092,
+      "lat_02": 28.766104,
+      "time_diff_h": 14.3,
+      "shop_id": "TA0782",
+      "route_id": "43"
+    },
+    {
+      "task_treated_user_nickname": "欧凌翔",
+      "signed_time": "2025-07-08 14:01:20",
+      "lon_02": 112.360037,
+      "lat_02": 28.842283,
+      "time_diff_h": 4.8,
+      "shop_id": "MS239",
+      "route_id": "52"
+    },
+    {
+      "task_treated_user_nickname": "欧凌翔",
+      "signed_time": "2025-07-08 16:29:51",
+      "lon_02": 112.337191,
+      "lat_02": 28.60017,
+      "time_diff_h": 2.5,
+      "shop_id": "T546",
+      "route_id": "43"
+    },
+    {
+      "task_treated_user_nickname": "欧凌翔",
+      "signed_time": "2025-07-08 18:13:25",
+      "lon_02": 112.335175,
+      "lat_02": 28.589334,
+      "time_diff_h": 1.7,
+      "shop_id": "TA0640",
+      "route_id": "43"
+    },
+    {
+      "task_treated_user_nickname": "欧凌翔",
+      "signed_time": "2025-07-08 19:33:17",
+      "lon_02": 112.33653,
+      "lat_02": 28.577649,
+      "time_diff_h": 1.3,
+      "shop_id": "TW0158",
+      "route_id": "52"
     }
   ],
   "江文清": [
@@ -1925,6 +2537,42 @@
       "time_diff_h": 2.2,
       "shop_id": "MS161",
       "route_id": "60"
+    },
+    {
+      "task_treated_user_nickname": "江文清",
+      "signed_time": "2025-07-08 09:51:55",
+      "lon_02": 113.0624,
+      "lat_02": 28.237651,
+      "time_diff_h": 16.5,
+      "shop_id": "T820",
+      "route_id": "62"
+    },
+    {
+      "task_treated_user_nickname": "江文清",
+      "signed_time": "2025-07-08 15:10:49",
+      "lon_02": 113.054271,
+      "lat_02": 28.263414,
+      "time_diff_h": 5.3,
+      "shop_id": "T326",
+      "route_id": "62"
+    },
+    {
+      "task_treated_user_nickname": "江文清",
+      "signed_time": "2025-07-08 19:10:09",
+      "lon_02": 112.978086,
+      "lat_02": 28.267039,
+      "time_diff_h": 4.0,
+      "shop_id": "TS1183",
+      "route_id": "62"
+    },
+    {
+      "task_treated_user_nickname": "江文清",
+      "signed_time": "2025-07-08 21:16:46",
+      "lon_02": 113.044623,
+      "lat_02": 28.232975,
+      "time_diff_h": 2.1,
+      "shop_id": "TS404",
+      "route_id": "62"
     }
   ],
   "江文莉": [
@@ -2062,6 +2710,33 @@
       "time_diff_h": 2.8,
       "shop_id": "MA0208",
       "route_id": "221"
+    },
+    {
+      "task_treated_user_nickname": "江文莉",
+      "signed_time": "2025-07-08 10:10:38",
+      "lon_02": 119.58043,
+      "lat_02": 39.947478,
+      "time_diff_h": 18.9,
+      "shop_id": "MA0213",
+      "route_id": "221"
+    },
+    {
+      "task_treated_user_nickname": "江文莉",
+      "signed_time": "2025-07-08 14:41:44",
+      "lon_02": 118.489202,
+      "lat_02": 40.606412,
+      "time_diff_h": 4.5,
+      "shop_id": "MA0530",
+      "route_id": "220"
+    },
+    {
+      "task_treated_user_nickname": "江文莉",
+      "signed_time": "2025-07-08 17:22:07",
+      "lon_02": 118.17412,
+      "lat_02": 40.769242,
+      "time_diff_h": 2.7,
+      "shop_id": "MA0593",
+      "route_id": "220"
     }
   ],
   "沈春洪": [
@@ -2244,6 +2919,51 @@
       "time_diff_h": 1.7,
       "shop_id": "ME077",
       "route_id": 0
+    },
+    {
+      "task_treated_user_nickname": "沈春洪",
+      "signed_time": "2025-07-08 09:13:39",
+      "lon_02": 121.403105,
+      "lat_02": 28.658655,
+      "time_diff_h": 16.2,
+      "shop_id": "MA0209",
+      "route_id": "3"
+    },
+    {
+      "task_treated_user_nickname": "沈春洪",
+      "signed_time": "2025-07-08 11:09:51",
+      "lon_02": 121.43994,
+      "lat_02": 28.65545,
+      "time_diff_h": 1.9,
+      "shop_id": "M483",
+      "route_id": "1"
+    },
+    {
+      "task_treated_user_nickname": "沈春洪",
+      "signed_time": "2025-07-08 13:08:27",
+      "lon_02": 121.454759,
+      "lat_02": 28.647503,
+      "time_diff_h": 2.0,
+      "shop_id": "MS1288",
+      "route_id": "1"
+    },
+    {
+      "task_treated_user_nickname": "沈春洪",
+      "signed_time": "2025-07-08 14:38:58",
+      "lon_02": 121.455725,
+      "lat_02": 28.655223,
+      "time_diff_h": 1.5,
+      "shop_id": "MS288",
+      "route_id": 0
+    },
+    {
+      "task_treated_user_nickname": "沈春洪",
+      "signed_time": "2025-07-08 16:20:16",
+      "lon_02": 121.442238,
+      "lat_02": 28.676979,
+      "time_diff_h": 1.7,
+      "shop_id": "M589",
+      "route_id": "1"
     }
   ],
   "王彬": [
@@ -2353,6 +3073,42 @@
       "lat_02": 34.808197,
       "time_diff_h": 4.6,
       "shop_id": "TW0105",
+      "route_id": "64"
+    },
+    {
+      "task_treated_user_nickname": "王彬",
+      "signed_time": "2025-07-08 09:55:55",
+      "lon_02": 114.291762,
+      "lat_02": 34.809172,
+      "time_diff_h": 13.5,
+      "shop_id": "T840",
+      "route_id": "64"
+    },
+    {
+      "task_treated_user_nickname": "王彬",
+      "signed_time": "2025-07-08 12:32:34",
+      "lon_02": 114.364817,
+      "lat_02": 34.812571,
+      "time_diff_h": 2.6,
+      "shop_id": "TA0021",
+      "route_id": "64"
+    },
+    {
+      "task_treated_user_nickname": "王彬",
+      "signed_time": "2025-07-08 14:04:50",
+      "lon_02": 114.375234,
+      "lat_02": 34.812555,
+      "time_diff_h": 1.5,
+      "shop_id": "TE296",
+      "route_id": "64"
+    },
+    {
+      "task_treated_user_nickname": "王彬",
+      "signed_time": "2025-07-08 15:49:38",
+      "lon_02": 114.308311,
+      "lat_02": 34.812127,
+      "time_diff_h": 1.7,
+      "shop_id": "TA0025",
       "route_id": "64"
     }
   ],
@@ -2473,6 +3229,33 @@
       "time_diff_h": 5.3,
       "shop_id": "T553",
       "route_id": "117"
+    },
+    {
+      "task_treated_user_nickname": "程扬涛",
+      "signed_time": "2025-07-08 09:23:50",
+      "lon_02": 111.79295,
+      "lat_02": 30.820858,
+      "time_diff_h": 11.8,
+      "shop_id": "M724",
+      "route_id": "117"
+    },
+    {
+      "task_treated_user_nickname": "程扬涛",
+      "signed_time": "2025-07-08 12:32:25",
+      "lon_02": 111.795791,
+      "lat_02": 30.824954,
+      "time_diff_h": 3.1,
+      "shop_id": "MS1043",
+      "route_id": "117"
+    },
+    {
+      "task_treated_user_nickname": "程扬涛",
+      "signed_time": "2025-07-08 18:59:54",
+      "lon_02": 112.264151,
+      "lat_02": 30.314399,
+      "time_diff_h": 6.4,
+      "shop_id": "MS2291",
+      "route_id": "117"
     }
   ],
   "简明军": [
@@ -2574,6 +3357,24 @@
       "time_diff_h": 1.8,
       "shop_id": "MS2006",
       "route_id": "213"
+    },
+    {
+      "task_treated_user_nickname": "简明军",
+      "signed_time": "2025-07-08 10:39:41",
+      "lon_02": 116.84493,
+      "lat_02": 38.304215,
+      "time_diff_h": 18.4,
+      "shop_id": "MQ0008",
+      "route_id": "215"
+    },
+    {
+      "task_treated_user_nickname": "简明军",
+      "signed_time": "2025-07-08 15:39:06",
+      "lon_02": 117.769517,
+      "lat_02": 38.274277,
+      "time_diff_h": 5.0,
+      "shop_id": "MW0169",
+      "route_id": "215"
     }
   ],
   "罗荣祺": [
@@ -2693,6 +3494,51 @@
       "time_diff_h": 1.4,
       "shop_id": "TS288",
       "route_id": "134"
+    },
+    {
+      "task_treated_user_nickname": "罗荣祺",
+      "signed_time": "2025-07-08 09:27:14",
+      "lon_02": 113.252735,
+      "lat_02": 23.214969,
+      "time_diff_h": 13.0,
+      "shop_id": "T870",
+      "route_id": "134"
+    },
+    {
+      "task_treated_user_nickname": "罗荣祺",
+      "signed_time": "2025-07-08 11:13:24",
+      "lon_02": 113.238946,
+      "lat_02": 23.204568,
+      "time_diff_h": 1.8,
+      "shop_id": "TA0519",
+      "route_id": "134"
+    },
+    {
+      "task_treated_user_nickname": "罗荣祺",
+      "signed_time": "2025-07-08 13:44:02",
+      "lon_02": 113.268721,
+      "lat_02": 23.219218,
+      "time_diff_h": 2.5,
+      "shop_id": "TS808",
+      "route_id": "135"
+    },
+    {
+      "task_treated_user_nickname": "罗荣祺",
+      "signed_time": "2025-07-08 16:07:02",
+      "lon_02": 113.297025,
+      "lat_02": 23.33339,
+      "time_diff_h": 2.4,
+      "shop_id": "M957",
+      "route_id": "135"
+    },
+    {
+      "task_treated_user_nickname": "罗荣祺",
+      "signed_time": "2025-07-08 19:12:52",
+      "lon_02": 113.230147,
+      "lat_02": 23.395446,
+      "time_diff_h": 3.1,
+      "shop_id": "M966",
+      "route_id": "135"
     }
   ],
   "胡锦辉": [
@@ -2731,6 +3577,42 @@
       "time_diff_h": 2.8,
       "shop_id": "MS430",
       "route_id": "77"
+    },
+    {
+      "task_treated_user_nickname": "胡锦辉",
+      "signed_time": "2025-07-07 21:41:03",
+      "lon_02": 115.186966,
+      "lat_02": 36.075958,
+      "time_diff_h": 5.6,
+      "shop_id": "MS1679",
+      "route_id": 0
+    },
+    {
+      "task_treated_user_nickname": "胡锦辉",
+      "signed_time": "2025-07-08 10:36:48",
+      "lon_02": 115.022414,
+      "lat_02": 35.730623,
+      "time_diff_h": 12.9,
+      "shop_id": "MS634",
+      "route_id": "77"
+    },
+    {
+      "task_treated_user_nickname": "胡锦辉",
+      "signed_time": "2025-07-08 17:33:01",
+      "lon_02": 114.68981,
+      "lat_02": 35.198218,
+      "time_diff_h": 6.9,
+      "shop_id": "TS419",
+      "route_id": 0
+    },
+    {
+      "task_treated_user_nickname": "胡锦辉",
+      "signed_time": "2025-07-08 20:16:15",
+      "lon_02": 114.659335,
+      "lat_02": 35.184343,
+      "time_diff_h": 2.7,
+      "shop_id": "TS056",
+      "route_id": "72"
     }
   ],
   "胡骏": [
@@ -2840,6 +3722,33 @@
       "lat_02": 23.043725,
       "time_diff_h": 2.3,
       "shop_id": "MA0153",
+      "route_id": "121"
+    },
+    {
+      "task_treated_user_nickname": "胡骏",
+      "signed_time": "2025-07-08 08:15:26",
+      "lon_02": 113.393966,
+      "lat_02": 23.008439,
+      "time_diff_h": 18.1,
+      "shop_id": "ME467",
+      "route_id": 0
+    },
+    {
+      "task_treated_user_nickname": "胡骏",
+      "signed_time": "2025-07-08 10:59:39",
+      "lon_02": 113.508271,
+      "lat_02": 22.833614,
+      "time_diff_h": 2.7,
+      "shop_id": "MW0228",
+      "route_id": "121"
+    },
+    {
+      "task_treated_user_nickname": "胡骏",
+      "signed_time": "2025-07-08 14:00:40",
+      "lon_02": 113.546686,
+      "lat_02": 22.704442,
+      "time_diff_h": 3.0,
+      "shop_id": "MS002",
       "route_id": "121"
     }
   ],
@@ -2996,6 +3905,60 @@
       "time_diff_h": 2.1,
       "shop_id": "T447",
       "route_id": "313"
+    },
+    {
+      "task_treated_user_nickname": "范司浩",
+      "signed_time": "2025-07-08 09:29:28",
+      "lon_02": 118.417532,
+      "lat_02": 24.744823,
+      "time_diff_h": 18.1,
+      "shop_id": "TW0052",
+      "route_id": "317"
+    },
+    {
+      "task_treated_user_nickname": "范司浩",
+      "signed_time": "2025-07-08 10:30:47",
+      "lon_02": 118.460933,
+      "lat_02": 24.709777,
+      "time_diff_h": 1.0,
+      "shop_id": "T196",
+      "route_id": "317"
+    },
+    {
+      "task_treated_user_nickname": "范司浩",
+      "signed_time": "2025-07-08 12:24:27",
+      "lon_02": 118.436944,
+      "lat_02": 24.676073,
+      "time_diff_h": 1.9,
+      "shop_id": "T201",
+      "route_id": "317"
+    },
+    {
+      "task_treated_user_nickname": "范司浩",
+      "signed_time": "2025-07-08 13:43:42",
+      "lon_02": 118.424613,
+      "lat_02": 24.701379,
+      "time_diff_h": 1.3,
+      "shop_id": "MS2493",
+      "route_id": "317"
+    },
+    {
+      "task_treated_user_nickname": "范司浩",
+      "signed_time": "2025-07-08 14:45:41",
+      "lon_02": 118.432591,
+      "lat_02": 24.704878,
+      "time_diff_h": 1.0,
+      "shop_id": "TS813",
+      "route_id": "317"
+    },
+    {
+      "task_treated_user_nickname": "范司浩",
+      "signed_time": "2025-07-08 16:23:37",
+      "lon_02": 118.428738,
+      "lat_02": 24.629702,
+      "time_diff_h": 1.6,
+      "shop_id": "TE280",
+      "route_id": "317"
     }
   ],
   "许小伟": [
@@ -3124,6 +4087,51 @@
       "time_diff_h": 0.8,
       "shop_id": "T658",
       "route_id": "169"
+    },
+    {
+      "task_treated_user_nickname": "许小伟",
+      "signed_time": "2025-07-08 09:34:30",
+      "lon_02": 104.28465,
+      "lat_02": 30.968196,
+      "time_diff_h": 17.9,
+      "shop_id": "TE018",
+      "route_id": "170"
+    },
+    {
+      "task_treated_user_nickname": "许小伟",
+      "signed_time": "2025-07-08 10:42:20",
+      "lon_02": 104.278996,
+      "lat_02": 30.978307,
+      "time_diff_h": 1.1,
+      "shop_id": "T538",
+      "route_id": 0
+    },
+    {
+      "task_treated_user_nickname": "许小伟",
+      "signed_time": "2025-07-08 12:59:36",
+      "lon_02": 104.386997,
+      "lat_02": 31.091548,
+      "time_diff_h": 2.3,
+      "shop_id": "TA0546",
+      "route_id": "170"
+    },
+    {
+      "task_treated_user_nickname": "许小伟",
+      "signed_time": "2025-07-08 15:41:36",
+      "lon_02": 104.194995,
+      "lat_02": 31.341885,
+      "time_diff_h": 2.7,
+      "shop_id": "T643",
+      "route_id": "169"
+    },
+    {
+      "task_treated_user_nickname": "许小伟",
+      "signed_time": "2025-07-08 17:45:18",
+      "lon_02": 104.243131,
+      "lat_02": 31.325461,
+      "time_diff_h": 2.0,
+      "shop_id": "TS306",
+      "route_id": "169"
     }
   ],
   "谢恩": [
@@ -3224,6 +4232,51 @@
       "lat_02": 30.574004,
       "time_diff_h": 3.7,
       "shop_id": "M752",
+      "route_id": "171"
+    },
+    {
+      "task_treated_user_nickname": "谢恩",
+      "signed_time": "2025-07-08 09:43:42",
+      "lon_02": 104.067009,
+      "lat_02": 29.638373,
+      "time_diff_h": 13.9,
+      "shop_id": "T963",
+      "route_id": "175"
+    },
+    {
+      "task_treated_user_nickname": "谢恩",
+      "signed_time": "2025-07-08 15:13:37",
+      "lon_02": 104.091547,
+      "lat_02": 30.592105,
+      "time_diff_h": 5.5,
+      "shop_id": "TS481",
+      "route_id": "171"
+    },
+    {
+      "task_treated_user_nickname": "谢恩",
+      "signed_time": "2025-07-08 17:12:42",
+      "lon_02": 104.14503,
+      "lat_02": 30.59019,
+      "time_diff_h": 2.0,
+      "shop_id": "TS143",
+      "route_id": "171"
+    },
+    {
+      "task_treated_user_nickname": "谢恩",
+      "signed_time": "2025-07-08 20:24:57",
+      "lon_02": 104.098059,
+      "lat_02": 30.557322,
+      "time_diff_h": 3.2,
+      "shop_id": "MA1119",
+      "route_id": "171"
+    },
+    {
+      "task_treated_user_nickname": "谢恩",
+      "signed_time": "2025-07-08 22:14:32",
+      "lon_02": 104.081735,
+      "lat_02": 30.536085,
+      "time_diff_h": 1.8,
+      "shop_id": "TS202",
       "route_id": "171"
     }
   ],
@@ -3335,6 +4388,60 @@
       "time_diff_h": 1.1,
       "shop_id": "T611",
       "route_id": 0
+    },
+    {
+      "task_treated_user_nickname": "连雨欣",
+      "signed_time": "2025-07-08 09:50:19",
+      "lon_02": 110.328302,
+      "lat_02": 19.997068,
+      "time_diff_h": 18.4,
+      "shop_id": "TA0163",
+      "route_id": "287"
+    },
+    {
+      "task_treated_user_nickname": "连雨欣",
+      "signed_time": "2025-07-08 11:02:13",
+      "lon_02": 110.332125,
+      "lat_02": 20.009508,
+      "time_diff_h": 1.2,
+      "shop_id": "T530",
+      "route_id": "287"
+    },
+    {
+      "task_treated_user_nickname": "连雨欣",
+      "signed_time": "2025-07-08 13:07:29",
+      "lon_02": 110.13071,
+      "lat_02": 19.962971,
+      "time_diff_h": 2.1,
+      "shop_id": "TS243",
+      "route_id": "292"
+    },
+    {
+      "task_treated_user_nickname": "连雨欣",
+      "signed_time": "2025-07-08 14:49:54",
+      "lon_02": 110.2018,
+      "lat_02": 20.011516,
+      "time_diff_h": 1.7,
+      "shop_id": "M592",
+      "route_id": "292"
+    },
+    {
+      "task_treated_user_nickname": "连雨欣",
+      "signed_time": "2025-07-08 16:33:59",
+      "lon_02": 110.252256,
+      "lat_02": 20.014334,
+      "time_diff_h": 1.7,
+      "shop_id": "TS567",
+      "route_id": "292"
+    },
+    {
+      "task_treated_user_nickname": "连雨欣",
+      "signed_time": "2025-07-08 21:17:23",
+      "lon_02": 110.338381,
+      "lat_02": 20.051318,
+      "time_diff_h": 4.7,
+      "shop_id": "T44",
+      "route_id": "292"
     }
   ],
   "邹思萍": [
@@ -3517,6 +4624,42 @@
       "time_diff_h": 2.7,
       "shop_id": "M1",
       "route_id": "302"
+    },
+    {
+      "task_treated_user_nickname": "邹思萍",
+      "signed_time": "2025-07-08 11:05:13",
+      "lon_02": 119.33288,
+      "lat_02": 25.708382,
+      "time_diff_h": 14.0,
+      "shop_id": "T845",
+      "route_id": "302"
+    },
+    {
+      "task_treated_user_nickname": "邹思萍",
+      "signed_time": "2025-07-08 12:46:22",
+      "lon_02": 119.318542,
+      "lat_02": 25.704515,
+      "time_diff_h": 1.7,
+      "shop_id": "T101",
+      "route_id": "302"
+    },
+    {
+      "task_treated_user_nickname": "邹思萍",
+      "signed_time": "2025-07-08 15:29:05",
+      "lon_02": 119.58243,
+      "lat_02": 25.818228,
+      "time_diff_h": 2.7,
+      "shop_id": "MS931",
+      "route_id": "302"
+    },
+    {
+      "task_treated_user_nickname": "邹思萍",
+      "signed_time": "2025-07-08 21:01:30",
+      "lon_02": 119.595655,
+      "lat_02": 26.471918,
+      "time_diff_h": 5.5,
+      "shop_id": "M547",
+      "route_id": "320"
     }
   ],
   "郑晖": [
@@ -3645,6 +4788,51 @@
       "time_diff_h": 1.6,
       "shop_id": "MA1102",
       "route_id": 0
+    },
+    {
+      "task_treated_user_nickname": "郑晖",
+      "signed_time": "2025-07-08 08:04:50",
+      "lon_02": 115.530639,
+      "lat_02": 38.870521,
+      "time_diff_h": 14.8,
+      "shop_id": "MA1563",
+      "route_id": "217"
+    },
+    {
+      "task_treated_user_nickname": "郑晖",
+      "signed_time": "2025-07-08 09:37:59",
+      "lon_02": 115.500359,
+      "lat_02": 38.860802,
+      "time_diff_h": 1.6,
+      "shop_id": "TS459",
+      "route_id": "217"
+    },
+    {
+      "task_treated_user_nickname": "郑晖",
+      "signed_time": "2025-07-08 10:40:50",
+      "lon_02": 115.492875,
+      "lat_02": 38.85862,
+      "time_diff_h": 1.0,
+      "shop_id": "TS265",
+      "route_id": "217"
+    },
+    {
+      "task_treated_user_nickname": "郑晖",
+      "signed_time": "2025-07-08 12:43:43",
+      "lon_02": 115.497934,
+      "lat_02": 38.86758,
+      "time_diff_h": 2.0,
+      "shop_id": "TS780",
+      "route_id": "217"
+    },
+    {
+      "task_treated_user_nickname": "郑晖",
+      "signed_time": "2025-07-08 14:06:54",
+      "lon_02": 115.495064,
+      "lat_02": 38.871904,
+      "time_diff_h": 1.4,
+      "shop_id": "TS1174",
+      "route_id": "217"
     }
   ],
   "陈益彬": [
@@ -3782,6 +4970,42 @@
       "time_diff_h": 2.3,
       "shop_id": "M354",
       "route_id": 0
+    },
+    {
+      "task_treated_user_nickname": "陈益彬",
+      "signed_time": "2025-07-07 21:00:51",
+      "lon_02": 115.373603,
+      "lat_02": 28.442912,
+      "time_diff_h": 4.8,
+      "shop_id": "M729",
+      "route_id": "157"
+    },
+    {
+      "task_treated_user_nickname": "陈益彬",
+      "signed_time": "2025-07-08 11:32:28",
+      "lon_02": 114.804345,
+      "lat_02": 28.387781,
+      "time_diff_h": 14.5,
+      "shop_id": "ME1039",
+      "route_id": "157"
+    },
+    {
+      "task_treated_user_nickname": "陈益彬",
+      "signed_time": "2025-07-08 16:56:46",
+      "lon_02": 115.484937,
+      "lat_02": 28.173171,
+      "time_diff_h": 5.4,
+      "shop_id": "MS1011",
+      "route_id": "157"
+    },
+    {
+      "task_treated_user_nickname": "陈益彬",
+      "signed_time": "2025-07-08 21:05:09",
+      "lon_02": 115.551605,
+      "lat_02": 28.060294,
+      "time_diff_h": 4.1,
+      "shop_id": "MS745",
+      "route_id": "157"
     }
   ],
   "黄建辉": [
@@ -3955,6 +5179,33 @@
       "time_diff_h": 2.5,
       "shop_id": "TW0166",
       "route_id": "206"
+    },
+    {
+      "task_treated_user_nickname": "黄建辉",
+      "signed_time": "2025-07-08 11:39:40",
+      "lon_02": 114.165782,
+      "lat_02": 40.114358,
+      "time_diff_h": 16.5,
+      "shop_id": "MW0242",
+      "route_id": "210"
+    },
+    {
+      "task_treated_user_nickname": "黄建辉",
+      "signed_time": "2025-07-08 16:35:34",
+      "lon_02": 114.73449,
+      "lat_02": 41.145737,
+      "time_diff_h": 4.9,
+      "shop_id": "MQ0009",
+      "route_id": "210"
+    },
+    {
+      "task_treated_user_nickname": "黄建辉",
+      "signed_time": "2025-07-08 21:02:06",
+      "lon_02": 114.894479,
+      "lat_02": 40.792309,
+      "time_diff_h": 4.4,
+      "shop_id": "MW0199",
+      "route_id": "210"
     }
   ]
 }
